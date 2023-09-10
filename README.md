@@ -23,7 +23,7 @@ content-type: application/json; charset=utf-8
 ### POSTリクエスト
 * ターミナル結果
 ```
-oyaminori@ooyasanenarunoMacBook-Air ~ % curl -i -H "Authorization: mytoken " \
+oyaminori@ooyasanenarunoMacBook-Air ~ % curl -i -H "Authorization: mytoken" \
     -d '{
         "name": "blog01",
         "auto_init": true,
@@ -66,7 +66,7 @@ d58-8e3f837388e0)
 ```
 curl -i -X PATCH \
   -H "Accept: application/vnd.github.v3+json" \
-  -H "Authorization: token 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" \
+  -H "Authorization: mytoken" \
   https://api.github.com/repos/minori-oya/blog06 \
   -d '{
     "name":"hello-world-blog",
